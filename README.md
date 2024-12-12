@@ -46,7 +46,7 @@ O projeto utiliza **HTML**, **CSS** e **JavaScript** para demonstrar a manipula�
 ### Acesse Online
 O projeto está publicado no **Netlify**. Acesse clicando no link abaixo:
 
-[**Acesse o Projeto Aqui**](#) *(https://projeto-calculadorab.netlify.app/)*
+[Acesse o Projeto Aqui](https://projeto-calculadorab.netlify.app/)
 
 ### Rodando Localmente
 1. Clone este repositório:
