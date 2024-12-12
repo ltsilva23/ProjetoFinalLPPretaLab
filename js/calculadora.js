@@ -3,10 +3,11 @@ function somar() {
   const numero2 = parseFloat(document.getElementById("numero2Soma").value);
   // evite mexer no código acima!
 
-  const resultado = 0;
+  const resultado =  numero1 + numero2;
 
   /* use as constantes numero 1 e numero 2 e em seguida armazene na variavel a operação descrita no nome da função.
   Em seguida, ao invés de mostrar o numero 0, mostre o resultado da operação */
+
   document.getElementById("resultadoSoma").innerHTML = resultado;
 }
 
@@ -15,7 +16,7 @@ function subtrair() {
   const numero2 = parseFloat(document.getElementById("numero2Sub").value);
   // evite mexer no código acima!
 
-  const resultado = 0;
+  const resultado = numero1 - numero2;
 
   /* use as constantes numero 1 e numero 2 e em seguida armazene na variavel a operação descrita no nome da função.
    Em seguida, ao invés de mostrar o numero 0, mostre o resultado da operação */
@@ -27,7 +28,7 @@ function multiplicar() {
   const numero2 = parseFloat(document.getElementById("numero2Mult").value);
   // evite mexer no código acima!
 
-  const resultado = 0;
+  const resultado = numero1 * numero2;
 
   /* use as constantes numero 1 e numero 2 e em seguida armazene na variavel a operação descrita no nome da função.
    Em seguida, ao invés de mostrar o numero 0, mostre o resultado da operação */
@@ -39,8 +40,12 @@ function dividir() {
   const numero2 = parseFloat(document.getElementById("numero2Div").value);
   // evite mexer no código acima!
 
-  const resultado = 0;
+  const resultado = numero1 / numero2;
 
+  if (numero2 === 0) {
+     document.getElementById("resultadoDiv").innerHTML = "Não pode dividir por zero!";
+     return
+  }
   /* use as constantes numero 1 e numero 2 e em seguida armazene na variavel a operação descrita no nome da função.
    Em seguida, ao invés de mostrar o numero 0, mostre o resultado da operação */
   document.getElementById("resultadoDiv").innerHTML = resultado;
